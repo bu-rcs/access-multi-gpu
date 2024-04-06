@@ -4,7 +4,7 @@ To launch an MPI application, use the TACC-specific MPI launcher `ibrun`, which 
 
 When you call `ibrun` without other arguments, your Slurm `#SBATCH` directives will determine the number of ranks (MPI tasks) and number of nodes on which your program runs. Read more on launching MPI, multi-threaded, serial, and hybrid compute jobs on [Stampede3 documentation](https://docs.tacc.utexas.edu/hpc/stampede3/#launching).
 
-# Gromacs Example
+# GROMACS Example
 GROningen MAchine for Chemical Simulations (GROMACS) is a free, open-source, molecular dynamics package that many research groups use for exploring non-biological systems, such as polymers. It's often advantageous to use GROMACS with MPI to accelerate its algorithms. An example submission script and it's input file are in this directory:
 
 ## Required Files:
