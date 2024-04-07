@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH -N 1 		# request number of nodes (max)
+#SBATCH -p EM		# request node within Extreme Memory partition
+#SBATCH -t 1:00:00	# request 1-hour of runtime
+#SBATCH -n 96		# request whole node (96-cores max)
+
+# echo commands to stdout
+set -x
+
+# load necessary modules
+module load python
+
+# run pre-compiled python script
+python bridges2-em.py
