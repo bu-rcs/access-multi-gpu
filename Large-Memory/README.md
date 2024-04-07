@@ -1,6 +1,7 @@
 # Large Memory Jobs on Bridges-2 EM
 
-To launch a job using the extreme memory (EM) partition on Bridges-2, you must specify the partition and number of cores with the `sbatch` command. Note, you can only submit jobs to the EM partition via `ssh`, you cannot submit via an OnDemand session. 
+To launch a job using the extreme memory (EM) partition on Bridges-2, you must specify the partition and number of cores with the `sbatch` command. 
+Note, you can only submit jobs to the EM partition via `ssh`, you cannot submit via an OnDemand session. 
 
 # Example Submission From the Command Line:
 This example is requesting a 1-hour session on a node within the EM partition with 1TB memory and 24 cores.
