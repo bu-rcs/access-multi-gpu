@@ -11,7 +11,7 @@ This example is requesting a 1-hour session on a node within the EM partition wi
 `[user@login005 ~] sbatch -p EM -t 1:00:00 --ntasks-per-node=24 my_compiled_program`
  
 ## Using a Jobscript:
-This example is requesting a 1-hour session on a whole-node within the EM partition with 4TB memory and 96 cores. Please open `bridges2-em.job` and `bridges2-em.py` files to review.
+This example is requesting a 1-hour session on a whole-node within the EM partition with 4TB memory and 96 cores. Please open [bridges2-em.job](https://github.com/bu-rcs/access-use-case-demos/blob/main/Large-Memory/bridges2-em.job) and [bridges2-em.py](https://github.com/bu-rcs/access-use-case-demos/blob/main/Large-Memory/bridges2-em.py) files to review.
 
 `[user@login005 ~] sbatch bridges2-em.job`
 
